@@ -1,0 +1,110 @@
+/* style.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #034e09;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#current-weather-details p {
+  margin: 5px 0;
+}
+
+/* Search header styles */
+#searchheader {
+  background-color: #cddfd3; /* Green background */
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+#search-form {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#search-input {
+  padding: 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #bdab06; /* Yellow button */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#datetime-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#current-time-container {
+  text-align: left;
+  margin-left: 1%;
+}
+
+#current-date-container {
+  text-align: right;
+  margin-right: 1%;
+}
+
+#weather-icon-container {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Align items horizontally in the center */
+  /*align-items: center;  Align items vertically in the center */
+}
+
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #34495e;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  
+  bottom: 0;
+  width: 100%;
+}
